@@ -1,13 +1,35 @@
-/* CSS for your imitation here */
-kids font 
-font-family: "Coiny",
-system-ui;
-font-weight: 400;
-font-style: normal;
-everything else font 
-    font-family: "Sansation",
-    sans-serif;
-    font-weight: 700;
-    font-style: normal;
 
-    
+main{
+width: 360.5px;
+height: 480px;
+background-color: rgb(104, 146, 38) ;
+background-image: url("canvas.png");
+background-size: 100%;
+background-repeat: no-repeat;
+background-position-y: -19px;
+border: 20px solid rgb(248, 202, 2);
+}  
+.logo{ 
+    display: flex;
+    justify-content: space-between;
+}
+h1{ 
+    font-family: "Coiny",system-ui;
+        font-weight: 400;
+        font-style: normal;
+    color:white; 
+}
+h2{
+    font-family: "Sansation", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color:white; 
+        font-size:medium; 
+}
+p{
+    background-color:rgb(114, 34, 107);
+    border: 3px solid rgb(248, 202, 2);
+    color: rgb(114, 34, 107);
+    width: 20px;
+    height: 30px;
+}
