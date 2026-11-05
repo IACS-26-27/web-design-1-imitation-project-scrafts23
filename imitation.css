@@ -1,1 +1,53 @@
-/* CSS for your imitation here */
+
+main{
+width: 360.5px;
+height: 480px;
+background-color: rgb(104, 146, 38) ;
+background-image: url("Untitled_drawing__1_-removebg-preview.png");
+background-size: 100%;
+background-repeat: no-repeat;
+
+border: 20px solid rgb(248, 202, 2);
+}  
+.logo{ 
+    display: flex;
+    justify-content: space-between;
+}
+h1{ 
+    font-family: "Coiny",system-ui;
+        font-weight: 400;
+        font-style: normal;
+    color:rgb(255, 255, 255); 
+    
+}
+h2{
+    font-family: "Sansation", sans-serif;
+        font-weight: 350;
+        font-style: normal;
+        color:white; 
+        font-size:medium; 
+}
+h3 
+{ font-family: "Sansation", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    color: white;
+    font-size: small;
+    margin: 0px;
+    background: linear-gradient(90deg, rgba(218, 35, 59, 1) 0%, rgba(235, 194, 49, 1) 100%);
+}
+.best{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 20px;
+    align-items: center;
+    padding: 10px; 
+}
+p{
+    background-color:rgb(114, 34, 107);
+    border: 3px solid rgb(248, 202, 2);
+    color: rgb(114, 34, 107);
+    width: 20px;
+    height: 30px;
+}
