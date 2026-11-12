@@ -6,7 +6,7 @@ background-color: rgb(104, 146, 38) ;
 background-image: url("Untitled_drawing__1_-removebg-preview.png");
 background-size: 100%;
 background-repeat: no-repeat;
-
+position: absolute;
 border: 20px solid rgb(248, 202, 2);
 }  
 .logo{ 
@@ -44,7 +44,7 @@ h3
     font-weight: 350;
     font-style: normal;
     color: white;
-    font-size: small;
+    font-size: 12px;
     margin: 0px;
     background: linear-gradient(90deg, rgba(218, 35, 59, 1) 0%, rgba(235, 194, 49, 1) 100%);
 }
@@ -65,11 +65,77 @@ h4{
     margin-left:15px;
     margin-top: 10px ;
 }
+h5{ 
+font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+    background-color:#72226b;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px; 
+    width: 100px ;
+
+}
+h6{ 
+font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+    width: 112px; 
+    background-color: #72226b;
+    margin-right: 2px ;
+  
+}
+h7 {
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(114, 34, 107);
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    width: 130px;
+}
+.fan{ 
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:2px; 
+   
+  
+}
+.bottom{
+position:absolute; 
+bottom: 0px; 
+width: 360px;
+
+}
 .fox{ 
    width: 331px;
    height: 401px;
-   position: relative;
-   bottom: 106px;
-   right: -30px;  
+   position: absolute;
+   bottom: 0px;
+   right: 0px;  
    overflow: hidden;
+}
+.t1{ 
+    transform:rotate(7deg )
+}
+.t2{
+    transform: rotate(358deg);
+}
+.t3{
+    transform: rotate(3deg);
 }
