@@ -122,8 +122,9 @@ h7 {
 
 .meet {
     position: absolute;
-    bottom: 61px;
-    right: 16px;
+    bottom: 48px;
+    right: 55px;
+    transform: rotate(351deg);
 
 }
 
@@ -168,6 +169,21 @@ h8 {
     font-size: 11px;
 }
 
+.shh {
+    font-size: 14px;
+
+}
+
+.pur {
+    color: #72226b;
+    font-size: 5px;
+}
+
+.ex {
+    font-size: 14px;
+
+}
+
 .shark {
     display: flex;
     flex-direction: row;
@@ -176,6 +192,9 @@ h8 {
     height: 43px;
     background-color: #72226b;
     padding: 1px;
+    text-align: center;
+
+
 }
 
 .fan {
