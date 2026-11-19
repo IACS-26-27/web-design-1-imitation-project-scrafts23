@@ -237,6 +237,18 @@ h8 {
 
 /* BEGIN MOBILE RULES */
 @media only screen and (max-width: 767px) {
+  main {}
+
+  .fox {
+    width: 64dvh;
+    height: 80dvh;
+  }
+
+  .bottom {
+    width: 100dvh;
+    height: 20dvh;
+  }
+
   /* Code for mobile phones only: */
 
   /* Mobile label */
@@ -253,7 +265,28 @@ h8 {
 
 /* BEGIN MEDIUM WIDTH RULES */
 @media only screen and (min-width: 768px) and (max-width: 1399px) {
+  main {
 
+    background-size: 103vw 84dvh;
+
+
+  }
+
+  .bottom {
+    width: 90vw;
+    height: 30dvh;
+  }
+
+  .work {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 150px;
+
+  }
 
   /* Code for medium width and bigger : *;
   /* Laptop label */
@@ -280,6 +313,9 @@ h8 {
 }
 
 /* BACK TO CODE FOR ALL SIZES */
+
+
+
 
 /* Code to insert circular label label to show how responsive code is working on lower right */
 main::before {
