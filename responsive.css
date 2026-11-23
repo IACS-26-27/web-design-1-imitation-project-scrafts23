@@ -237,17 +237,117 @@ h8 {
 
 /* BEGIN MOBILE RULES */
 @media only screen and (max-width: 767px) {
-  main {}
+
+  main {
+    border: 10px solid rgb(248, 202, 2);
+  }
+
+  h1 {
+    font-size: 90px;
+  }
+
+  h2 {
+    font-size: 10px;
+  }
+
+  h3 {
+    font-size: 8px;
+  }
+
+  h4 {
+
+    width: 10px;
+    height: 17px;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+
+  h6 {
+    font-size: 8px;
+  }
+
+  .meet {
+    position: absolute;
+    width: 71px;
+    bottom: 34px;
+    right: 55px;
+  }
+
+  .shark {
+    position: relative;
+  }
 
   .fox {
-    width: 64dvh;
-    height: 80dvh;
+    right: 17px;
+    bottom: 2px;
+    width: 62dvh;
+    height: 75dvh;
   }
 
   .bottom {
-    width: 100dvh;
-    height: 20dvh;
+    width: 75dvh;
+    height: 22dvh;
+    margin: 8px;
+
   }
+
+  .brain {
+    width: 92px;
+  }
+
+  .solve {
+    width: 90px;
+  }
+
+  .bran {
+    font-size: 12px;
+  }
+
+  .pur {
+    font-size: 10px;
+  }
+
+  .sh {
+    font-size: 12px;
+  }
+
+  .ex {
+    font-size: 10px;
+  }
+
+  .box {
+    margin: 2px;
+  }
+
+  .so {
+    font-size: 9px;
+  }
+
+  .ve {
+    font-size: 10px;
+  }
+
+  .my {
+    font-size: 9px;
+  }
+
+  .shh {
+    font-size: 10px;
+
+  }
+
+  .pur {
+    color: #72226b;
+    font-size: 5px;
+  }
+
+  .ex {
+    font-size: 10px;
+
+  }
+
 
   /* Code for mobile phones only: */
 
@@ -255,8 +355,6 @@ h8 {
   main::before {
     content: "Mobile";
     background-color: #c8787888;
-
-
 
   }
 
@@ -266,10 +364,40 @@ h8 {
 /* BEGIN MEDIUM WIDTH RULES */
 @media only screen and (min-width: 768px) and (max-width: 1399px) {
   main {
-
     background-size: 103vw 84dvh;
+  }
 
+  h1 {
+    font-size: 100px;
+  }
 
+  h2 {
+    font-size: 15px;
+    font-weight: 400px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  h4 {
+    font-size: 10px;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+
+  h6 {
+    font-size: 11px;
+  }
+
+  h7 {
+    font-size: 25px;
+  }
+
+  h8 {
+    font-size: 15px;
   }
 
   .bottom {
@@ -307,6 +435,38 @@ h8 {
     content: "Wide";
     background-color: #00438888;
 
+  }
+
+  h1 {
+    font-size: 100px;
+  }
+
+  h2 {
+    font-size: 10px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  h4 {
+    font-size: 10px;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+
+  h6 {
+    font-size: 11px;
+  }
+
+  h7 {
+    font-size: 25px;
+  }
+
+  h8 {
+    font-size: 15px;
   }
 
   /* End widescreen label */
