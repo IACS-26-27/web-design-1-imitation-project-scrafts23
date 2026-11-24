@@ -480,6 +480,7 @@ h8 {
 
   h6 {
     font-size: 20px;
+    width: 118px;
   }
 
   .bran {
@@ -505,7 +506,7 @@ h8 {
 
   .pur {
     color: #72226b;
-    font-size: 10px;
+    font-size: 19px;
   }
 
   .ex {
@@ -517,12 +518,35 @@ h8 {
     width: 400px;
   }
 
+  .brain {
+    height: 70px;
+  }
+
+  .solve {
+    height: 70px;
+  }
+
+  .shark {
+    height: 70px;
+  }
+
   h7 {
     font-size: 50px;
     width: 245px;
     margin-left: 37px;
   }
 
+  .fan {
+    gap: 10px;
+  }
+
+  .bottom {
+    height: 300px;
+  }
+
+  .box {
+    width: 575px;
+  }
 
   /* End widescreen label */
 }
