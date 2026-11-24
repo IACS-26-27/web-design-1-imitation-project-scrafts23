@@ -473,13 +473,55 @@ h8 {
   }
 
   h5 {
-    font-size: 25px;
+    font-size: 50px;
+    width: 190px;
+    margin-left: 37px;
   }
 
   h6 {
-    font-size: 11px;
+    font-size: 20px;
   }
 
+  .bran {
+    font-size: 20px;
+  }
+
+  .so {
+    font-size: 19px;
+  }
+
+  .ve {
+    font-size: 20px;
+  }
+
+  .my {
+    font-size: 20px;
+  }
+
+  .shh {
+    font-size: 20px;
+
+  }
+
+  .pur {
+    color: #72226b;
+    font-size: 10px;
+  }
+
+  .ex {
+    font-size: 20px;
+
+  }
+
+  .box {
+    width: 400px;
+  }
+
+  h7 {
+    font-size: 50px;
+    width: 245px;
+    margin-left: 37px;
+  }
 
 
   /* End widescreen label */
