@@ -1,26 +1,439 @@
 /* Code for all screen sizes */
+main {
+  min-height: 100dvh;
+  background-color: rgb(104, 146, 38);
+  background-image: url("Untitled_drawing__1_-removebg-preview.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 20px solid rgb(248, 202, 2);
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  justify-content: start;
+  gap: 3px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: "Coiny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  font-size: 110px;
+  margin-left: 7px;
+  margin-top: 15px;
+  padding: 0px;
+  line-height: 6px;
+}
+
+h2 {
+  font-family: "Sansation", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  color: white;
+  font-size: medium;
+  width: 70px;
+}
+
+h3 {
+  font-family: "Sansation", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  color: white;
+  font-size: 12px;
+  margin: 0px;
+  background: linear-gradient(90deg, rgba(218, 35, 59, 1) 0%, rgba(235, 194, 49, 1) 100%);
+}
+
+.best {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 20px;
+  align-items: center;
+  padding: 10px;
+}
+
+h4 {
+  background-color: rgb(114, 34, 107);
+  border: 3px solid rgb(248, 202, 2);
+  color: rgb(114, 34, 107);
+  width: 20px;
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+h5 {
+  font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  color: white;
+  background-color: #72226b;
+  margin-left: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  width: 100px;
+
+}
+
+.bor {
+  border: 5px solid #72226b;
+}
+
+h6 {
+  font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 11px;
+  color: white;
+  width: 63px;
+  background-color: #72226b;
+  margin-right: 2px;
+  margin-block: 0px;
+}
+
+.bran {
+  font-size: 15px;
+}
+
+h7 {
+  font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  color: white;
+  background-color: rgb(114, 34, 107);
+  margin-left: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  width: 130px;
+}
+
+.meet {
+  position: absolute;
+  bottom: 48px;
+  right: 55px;
+  transform: rotate(351deg);
+
+}
+
+h8 {
+  background: linear-gradient(90deg, rgba(218, 35, 59, 1) 0%, rgba(235, 194, 49, 1) 100%);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: white;
+  border-radius: 25px;
+}
+
+.brain {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0px;
+  height: 43px;
+  background-color: #72226b;
+  padding: 1px;
+}
+
+.solve {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0px;
+  height: 43px;
+  background-color: #72226b;
+  padding: 1px;
+}
+
+.so {
+  font-size: 12px;
+}
+
+.ve {
+  font-size: 14px;
+}
+
+.my {
+  font-size: 11px;
+}
+
+.shh {
+  font-size: 14px;
+
+}
+
+.pur {
+  color: #72226b;
+  font-size: 5px;
+}
+
+.ex {
+  font-size: 14px;
+
+}
+
+.shark {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0px;
+  height: 43px;
+  background-color: #72226b;
+  padding: 1px;
+  text-align: center;
+}
+
+.fan {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0px;
+  width: 360px;
+
+}
+
+.fox {
+  width: 331px;
+  height: 401px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+
+}
+
+.t1 {
+  transform: rotate(7deg)
+}
+
+.t2 {
+  transform: rotate(358deg);
+}
+
+.t3 {
+  transform: rotate(3deg);
+}
 
 /* BEGIN MOBILE RULES */
 @media only screen and (max-width: 767px) {
+
+  main {
+    border: 10px solid rgb(248, 202, 2);
+  }
+
+  h1 {
+    font-size: 90px;
+  }
+
+  h2 {
+    font-size: 10px;
+  }
+
+  h3 {
+    font-size: 8px;
+  }
+
+  h4 {
+
+    width: 10px;
+    height: 17px;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+
+  h6 {
+    font-size: 8px;
+  }
+
+  .meet {
+    position: absolute;
+    width: 71px;
+    bottom: 34px;
+    right: 55px;
+  }
+
+  .shark {
+    position: relative;
+  }
+
+  .fox {
+    right: 17px;
+    bottom: 2px;
+    width: 62dvh;
+    height: 75dvh;
+    overflow: hidden;
+  }
+
+  .bottom {
+    width: 75dvh;
+    height: 22dvh;
+    margin: 8px;
+
+  }
+
+  .brain {
+    width: 92px;
+  }
+
+  .solve {
+    width: 90px;
+  }
+
+  .bran {
+    font-size: 12px;
+  }
+
+  .pur {
+    font-size: 10px;
+  }
+
+  .sh {
+    font-size: 12px;
+  }
+
+  .ex {
+    font-size: 10px;
+  }
+
+  .box {
+    margin: 2px;
+  }
+
+  .so {
+    font-size: 9px;
+  }
+
+  .ve {
+    font-size: 10px;
+  }
+
+  .my {
+    font-size: 9px;
+  }
+
+  .shh {
+    font-size: 10px;
+
+  }
+
+  .pur {
+    color: #72226b;
+    font-size: 10px;
+  }
+
+  .ex {
+    font-size: 10px;
+
+  }
+
+
   /* Code for mobile phones only: */
 
   /* Mobile label */
   main::before {
     content: "Mobile";
     background-color: #c8787888;
+
   }
+
   /* End mobile label */
 }
 
 /* BEGIN MEDIUM WIDTH RULES */
 @media only screen and (min-width: 768px) and (max-width: 1399px) {
-  /* Code for medium width and bigger : */
+  main {
+    background-size: 103vw 84dvh;
+  }
 
+  .fox {
+    width: 336px;
+    height: 405px;
+    position: absolute;
+    bottom: 0px;
+    right: 69px;
+
+  }
+
+  .meet {
+    position: absolute;
+    width: 70px;
+    top: 43px;
+  }
+
+  h2 {
+    font-size: 15px;
+    font-weight: 500;
+
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+
+
+  h5 {
+    font-size: 25px;
+  }
+
+  h6 {
+    font-size: 11px;
+  }
+
+  h7 {
+    font-size: 25px;
+  }
+
+  h8 {
+    font-size: 15px;
+  }
+
+  .bottom {
+    width: 53vw;
+    height: 30dvh;
+  }
+
+  .work {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 150px;
+
+  }
+
+  /* Code for medium width and bigger : *;
   /* Laptop label */
   main::before {
     content: "Laptop";
     background-color: #45454588;
   }
+
   /* End laptop label */
 }
 
@@ -32,11 +445,116 @@
   main::before {
     content: "Wide";
     background-color: #00438888;
+
   }
+
+  h1 {
+    font-size: 250px;
+  }
+
+  .work {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  h4 {
+    font-size: 10px;
+    width: 30px;
+    height: 47px;
+  }
+
+  h5 {
+    font-size: 50px;
+    width: 190px;
+    margin-left: 37px;
+  }
+
+  h6 {
+    font-size: 20px;
+    width: 118px;
+  }
+
+  .bran {
+    font-size: 20px;
+  }
+
+  .so {
+    font-size: 19px;
+  }
+
+  .ve {
+    font-size: 20px;
+  }
+
+  .my {
+    font-size: 20px;
+  }
+
+  .shh {
+    font-size: 20px;
+
+  }
+
+  .pur {
+    color: #72226b;
+    font-size: 19px;
+  }
+
+  .ex {
+    font-size: 20px;
+
+  }
+
+  .box {
+    width: 400px;
+  }
+
+  .brain {
+    height: 70px;
+  }
+
+  .solve {
+    height: 70px;
+  }
+
+  .shark {
+    height: 70px;
+  }
+
+  h7 {
+    font-size: 50px;
+    width: 245px;
+    margin-left: 37px;
+  }
+
+  .fan {
+    gap: 10px;
+  }
+
+  .bottom {
+    height: 300px;
+  }
+
+  .box {
+    width: 575px;
+  }
+
   /* End widescreen label */
 }
 
 /* BACK TO CODE FOR ALL SIZES */
+
+
+
 
 /* Code to insert circular label label to show how responsive code is working on lower right */
 main::before {
@@ -45,8 +563,7 @@ main::before {
   right: 2px;
   color: #efefef;
   border-radius: 50%;
-  width: 45px;
-  height: 45px;
+
   font-family: Helvetica, sans-serif;
   font-size: 8pt;
   display: flex;
